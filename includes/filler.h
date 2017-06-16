@@ -15,7 +15,23 @@
 # include "../libft/includes/libft.h"
 # include <stdio.h>
 # include <unistd.h>
+# include <stdlib.h>
+# include <string.h>
 
-
+typedef struct      s_state
+{
+    char            **board;
+    char            **piece;
+	char            xoro;
+	char            enxoro;
+    int             fnl_bx;
+    int             fnl_by;
+    int             fnl_px;
+    int             fnl_py;
+    int             curm_x;
+    int             curm_y;
+    int             curb_x;
+    int             curb_y;
+}                   t_state;
 
 #endif
