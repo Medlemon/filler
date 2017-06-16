@@ -12,8 +12,6 @@
 
 #include "filler.h"
 
-/*$>./filler_vm -p1 user1 -p2 user2 -v -f samples/w1.flr*/
-
 int					main()
 {
 	char			*str;
